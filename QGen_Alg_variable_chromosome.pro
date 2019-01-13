@@ -14,15 +14,30 @@ DEFINES += QT_DEPRECATED_WARNINGS
 # You can also select to disable deprecated APIs only up to a certain version of Qt.
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
+win32:INCLUDEPATH += "C:/Program Files (x86)/MPICH2/include/"
+unix:INCLUDEPATH += "/usr/include/mpich2/"
+
 SOURCES += \
+    main.cpp \
+    Bus.cpp \
+    Buses.cpp \
     BusStopsOnRoutes.cpp \
+    EdgeCost.cpp \
     Event.cpp \
     Events.cpp \
     Individual.cpp \
-    main.cpp \
+    MinimalDriveTime.cpp \
+    Parameters_.cpp \
     Passanger.cpp \
+    PassengersDistribution.cpp \
     Population.cpp \
-    Rout.cpp
+    Rout.cpp \
+    Routes.cpp \
+    Stop.cpp \
+    tinystr.cpp \
+    tinyxml.cpp \
+    tinyxmlerror.cpp \
+    tinyxmlparser.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -30,10 +45,20 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
+    Bus.h \
+    Buses.h \
     BusStopsOnRoutes.h \
+    EdgeCost.h \
     Event.h \
     Events.h \
     Individual.h \
+    MinimalDriveTime.h \
+    Parameters_.h \
     Passanger.h \
+    PassengersDistribution.h \
     Population.h \
-    Rout.h
+    Rout.h \
+    Routes.h \
+    Stop.h \
+    tinystr.h \
+    tinyxml.h
