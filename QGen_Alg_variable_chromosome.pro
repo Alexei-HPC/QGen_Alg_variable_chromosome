@@ -62,3 +62,14 @@ HEADERS += \
     Stop.h \
     tinystr.h \
     tinyxml.h
+
+#LIBS += -L/"C:/Program Files (x86)/MPICH2/lib" -lmpich2 -lopa -lpthread -lrt
+
+QMAKE_CXXFLAGS += -Bsymbolic-functions
+
+win32:CONFIG(release, debug|release): LIBS += -L'C:/Program Files (x86)/MPICH2/lib/' -lmpich2
+else:win32:CONFIG(debug, debug|release): LIBS += -L'C:/Program Files (x86)/MPICH2/lib/' -lmpich2d
+else:unix: LIBS += -L'C:/Program Files (x86)/MPICH2/lib/' -lmpich2
+
+INCLUDEPATH += 'C:/Program Files (x86)/MPICH2/include'
+DEPENDPATH += 'C:/Program Files (x86)/MPICH2/include'
