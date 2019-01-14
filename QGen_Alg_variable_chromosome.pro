@@ -15,7 +15,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 win32:INCLUDEPATH += "C:/Program Files (x86)/MPICH2/include/"
-unix:INCLUDEPATH += "/usr/include/mpi/"
 
 SOURCES += \
     main.cpp \
@@ -63,13 +62,14 @@ HEADERS += \
     tinystr.h \
     tinyxml.h
 
-#LIBS += -L/"C:/Program Files (x86)/MPICH2/lib" -lmpich2 -lopa -lpthread -lrt
-
-QMAKE_CXXFLAGS += -Bsymbolic-functions
+win32:LIBS += -L/"C:/Program Files (x86)/MPICH2/lib" -lmpich2 -lopa -lpthread -lrt
 
 win32:CONFIG(release, debug|release): LIBS += -L'C:/Program Files (x86)/MPICH2/lib/' -lmpich2
 else:win32:CONFIG(debug, debug|release): LIBS += -L'C:/Program Files (x86)/MPICH2/lib/' -lmpich2d
-#else:unix: LIBS += -L'/usr/lib/mpi/' -lmpich2
+
+unix: LIBS += -L/usr/lib/openmpi/lib -lmpi -lmpi++
 
 win32:INCLUDEPATH += 'C:/Program Files (x86)/MPICH2/include'
 win32:DEPENDPATH += 'C:/Program Files (x86)/MPICH2/include'
+unix:DEPENDPATH += /usr/lib/openmpi/lib
+unix:INCLUDEPATH += /usr/lib/openmpi/include

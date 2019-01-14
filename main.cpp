@@ -5,7 +5,7 @@
 #include <string>
 #include <time.h>
 #include <set>
-#include <mpi.h>
+//#include <mpi.h>
 #include <sstream>
 
 #include "Population.h"
