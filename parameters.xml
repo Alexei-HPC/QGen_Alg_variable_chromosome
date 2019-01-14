@@ -1,0 +1,25 @@
+<parameters>
+  <genetic_alg_iterations>10</genetic_alg_iterations>
+  <individ_number>25</individ_number>
+  <chromosome_size>10</chromosome_size>
+  <crossover_probability>0.6</crossover_probability>
+  <mutation_probability>0.01</mutation_probability>
+  <mutation_number>5</mutation_number>
+  <truncation>20</truncation>
+  <exchange_period>4</exchange_period>
+  <exchange_individs>10</exchange_individs>
+  <mutation_period>3</mutation_period>
+  <fine_for_remain_passanger>200</fine_for_remain_passanger>
+  <fine_for_last_remain_passangers>400</fine_for_last_remain_passangers>
+  <fine_for_lag>5</fine_for_lag>
+  <costs_filename>Minimal_base_cost.xml</costs_filename>
+  <times_filename>out.txt</times_filename>
+  <density_filename>Density.xml</density_filename>
+  <routes_filename>routes.xml</routes_filename>
+  <wt_no_fine>30</wt_no_fine>
+  <wt_restful>50</wt_restful>
+  <rm_restful>5</rm_restful>
+  <wt_max>65</wt_max>
+  <rm_upto_max>10</rm_upto_max>
+  <f_refuse>20</f_refuse>
+</parameters>

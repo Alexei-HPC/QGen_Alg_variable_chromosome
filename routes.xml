@@ -1,0 +1,92 @@
+<routes>
+  <rout label="1" max_interval ="60">
+    <gap>0,500</gap>
+    <stops>27,21,19,11,14,15,7,3,1</stops>
+    <bus label ="0" capacity="25" lambda="1"></bus>
+    <bus label ="1" capacity="25" lambda="2"></bus>
+    <bus label ="2" capacity="35" lambda="3"></bus>
+    <bus label ="3" capacity="40" lambda="4"></bus>
+    <bus label ="4" capacity="35" lambda="5"></bus>
+	<bus label ="5" capacity="25" lambda="1"></bus>
+    <bus label ="6" capacity="25" lambda="2"></bus>
+    <bus label ="7" capacity="35" lambda="3"></bus>
+    <bus label ="8" capacity="40" lambda="4"></bus>
+    <bus label ="9" capacity="35" lambda="5"></bus>
+	<bus label ="10" capacity="25" lambda="1"></bus>
+    <bus label ="11" capacity="25" lambda="2"></bus>
+    <bus label ="12" capacity="35" lambda="3"></bus>
+    <bus label ="13" capacity="40" lambda="4"></bus>
+    <bus label ="14" capacity="35" lambda="5"></bus>
+	<bus label ="15" capacity="25" lambda="1"></bus>
+    <bus label ="16" capacity="25" lambda="2"></bus>
+    <bus label ="17" capacity="35" lambda="3"></bus>
+    <bus label ="18" capacity="40" lambda="4"></bus>
+    <bus label ="19" capacity="35" lambda="5"></bus>
+	<bus label ="20" capacity="25" lambda="1"></bus>
+    <bus label ="21" capacity="25" lambda="2"></bus>
+    <bus label ="22" capacity="35" lambda="3"></bus>
+    <bus label ="23" capacity="40" lambda="4"></bus>
+    <bus label ="24" capacity="35" lambda="5"></bus>
+	<bus label ="25" capacity="35" lambda="5"></bus>
+  </rout>
+  <rout label="2" max_interval ="60">
+    <gap>500,800</gap>
+    <stops>27,34,35,38,41,43,14,15,3,1</stops>
+    <bus label ="0" capacity="25" lambda="1"></bus>
+    <bus label ="1" capacity="25" lambda="2"></bus>
+    <bus label ="2" capacity="35" lambda="3"></bus>
+    <bus label ="3" capacity="40" lambda="4"></bus>
+    <bus label ="4" capacity="35" lambda="5"></bus>
+	<bus label ="5" capacity="25" lambda="1"></bus>
+    <bus label ="6" capacity="25" lambda="2"></bus>
+    <bus label ="7" capacity="35" lambda="3"></bus>
+    <bus label ="8" capacity="40" lambda="4"></bus>
+    <bus label ="9" capacity="35" lambda="5"></bus>
+	<bus label ="10" capacity="25" lambda="1"></bus>
+    <bus label ="11" capacity="25" lambda="2"></bus>
+    <bus label ="12" capacity="35" lambda="3"></bus>
+    <bus label ="13" capacity="40" lambda="4"></bus>
+    <bus label ="14" capacity="35" lambda="5"></bus>
+	<bus label ="15" capacity="25" lambda="1"></bus>
+    <bus label ="16" capacity="25" lambda="2"></bus>
+    <bus label ="17" capacity="35" lambda="3"></bus>
+    <bus label ="18" capacity="40" lambda="4"></bus>
+    <bus label ="19" capacity="35" lambda="5"></bus>
+	<bus label ="20" capacity="25" lambda="1"></bus>
+    <bus label ="21" capacity="25" lambda="2"></bus>
+    <bus label ="22" capacity="35" lambda="3"></bus>
+    <bus label ="23" capacity="40" lambda="4"></bus>
+    <bus label ="24" capacity="35" lambda="5"></bus>
+	<bus label ="25" capacity="35" lambda="5"></bus>
+  </rout>
+  <rout label="3" max_interval ="60" >
+    <gap>600,1440</gap>
+    <stops>1,21,19,74,73,72,69,61,58,56,57</stops>
+    <bus label ="0" capacity="25" lambda="1"></bus>
+    <bus label ="1" capacity="25" lambda="2"></bus>
+    <bus label ="2" capacity="35" lambda="3"></bus>
+    <bus label ="3" capacity="40" lambda="4"></bus>
+    <bus label ="4" capacity="35" lambda="5"></bus>
+	<bus label ="5" capacity="25" lambda="1"></bus>
+    <bus label ="6" capacity="25" lambda="2"></bus>
+    <bus label ="7" capacity="35" lambda="3"></bus>
+    <bus label ="8" capacity="40" lambda="4"></bus>
+    <bus label ="9" capacity="35" lambda="5"></bus>
+	<bus label ="10" capacity="25" lambda="1"></bus>
+    <bus label ="11" capacity="25" lambda="2"></bus>
+    <bus label ="12" capacity="35" lambda="3"></bus>
+    <bus label ="13" capacity="40" lambda="4"></bus>
+    <bus label ="14" capacity="35" lambda="5"></bus>
+	<bus label ="15" capacity="25" lambda="1"></bus>
+    <bus label ="16" capacity="25" lambda="2"></bus>
+    <bus label ="17" capacity="35" lambda="3"></bus>
+    <bus label ="18" capacity="40" lambda="4"></bus>
+    <bus label ="19" capacity="35" lambda="5"></bus>
+	<bus label ="20" capacity="25" lambda="1"></bus>
+    <bus label ="21" capacity="25" lambda="2"></bus>
+    <bus label ="22" capacity="35" lambda="3"></bus>
+    <bus label ="23" capacity="40" lambda="4"></bus>
+    <bus label ="24" capacity="35" lambda="5"></bus>
+	<bus label ="25" capacity="35" lambda="5"></bus>
+  </rout>
+</routes>

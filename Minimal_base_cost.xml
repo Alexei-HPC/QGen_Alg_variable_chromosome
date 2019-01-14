@@ -1,0 +1,266 @@
+<edges>
+  <edge a ="1" b ="21">
+    <time_cost time ="0" cost ="45"></time_cost>
+    <time_cost time ="330" cost ="50"></time_cost>
+    <time_cost time ="420" cost ="65"></time_cost>
+    <time_cost time ="570" cost ="60"></time_cost>
+    <time_cost time ="660" cost ="55"></time_cost>
+    <time_cost time ="960" cost ="60"></time_cost>
+    <time_cost time ="1110" cost ="70"></time_cost>
+    <time_cost time ="1200" cost ="65"></time_cost>
+    <time_cost time ="1380" cost ="50"></time_cost>
+  </edge>
+    <edge a ="27" b ="21">
+    <time_cost time ="0" cost ="45"></time_cost>
+    <time_cost time ="330" cost ="50"></time_cost>
+    <time_cost time ="420" cost ="65"></time_cost>
+    <time_cost time ="570" cost ="60"></time_cost>
+    <time_cost time ="660" cost ="55"></time_cost>
+    <time_cost time ="960" cost ="60"></time_cost>
+    <time_cost time ="1110" cost ="70"></time_cost>
+    <time_cost time ="1200" cost ="65"></time_cost>
+    <time_cost time ="1380" cost ="50"></time_cost>
+  </edge>
+  <edge a ="27" b ="34">
+    <time_cost time ="0" cost ="30"></time_cost>
+    <time_cost time ="330" cost ="35"></time_cost>
+    <time_cost time ="420" cost ="45"></time_cost>
+    <time_cost time ="570" cost ="40"></time_cost>
+    <time_cost time ="660" cost ="40"></time_cost>
+    <time_cost time ="960" cost ="42"></time_cost>
+    <time_cost time ="1110" cost ="45"></time_cost>
+    <time_cost time ="1200" cost ="40"></time_cost>
+    <time_cost time ="1380" cost ="35"></time_cost>
+  </edge>
+  <edge a ="3" b ="1">
+    <time_cost time ="0" cost ="40"></time_cost>
+    <time_cost time ="330" cost ="50"></time_cost>
+    <time_cost time ="420" cost ="65"></time_cost>
+    <time_cost time ="570" cost ="62"></time_cost>
+    <time_cost time ="660" cost ="55"></time_cost>
+    <time_cost time ="960" cost ="60"></time_cost>
+    <time_cost time ="1110" cost ="70"></time_cost>
+    <time_cost time ="1200" cost ="65"></time_cost>
+    <time_cost time ="1380" cost ="55"></time_cost>
+  </edge>
+  <edge a ="7" b ="3">
+    <time_cost time ="0" cost ="40"></time_cost>
+    <time_cost time ="330" cost ="45"></time_cost>
+    <time_cost time ="420" cost ="50"></time_cost>
+    <time_cost time ="570" cost ="55"></time_cost>
+    <time_cost time ="660" cost ="51"></time_cost>
+    <time_cost time ="960" cost ="47"></time_cost>
+    <time_cost time ="1110" cost ="57"></time_cost>
+    <time_cost time ="1200" cost ="52"></time_cost>
+    <time_cost time ="1380" cost ="46"></time_cost>
+  </edge>
+  <edge a ="11" b ="14">
+    <time_cost time ="0" cost ="30"></time_cost>
+    <time_cost time ="330" cost ="35"></time_cost>
+    <time_cost time ="420" cost ="40"></time_cost>
+    <time_cost time ="570" cost ="38"></time_cost>
+    <time_cost time ="660" cost ="35"></time_cost>
+    <time_cost time ="960" cost ="38"></time_cost>
+    <time_cost time ="1110" cost ="40"></time_cost>
+    <time_cost time ="1200" cost ="37"></time_cost>
+    <time_cost time ="1380" cost ="35"></time_cost>
+  </edge>
+  <edge a ="14" b ="15">
+    <time_cost time ="0" cost ="25"></time_cost>
+    <time_cost time ="330" cost ="27"></time_cost>
+    <time_cost time ="420" cost ="30"></time_cost>
+    <time_cost time ="570" cost ="30"></time_cost>
+    <time_cost time ="660" cost ="28"></time_cost>
+    <time_cost time ="960" cost ="27"></time_cost>
+    <time_cost time ="1110" cost ="31"></time_cost>
+    <time_cost time ="1200" cost ="28"></time_cost>
+    <time_cost time ="1380" cost ="27"></time_cost>
+  </edge>
+  <edge a ="15" b ="3">
+    <time_cost time ="0" cost ="50"></time_cost>
+    <time_cost time ="330" cost ="75"></time_cost>
+    <time_cost time ="420" cost ="87"></time_cost>
+    <time_cost time ="570" cost ="85"></time_cost>
+    <time_cost time ="660" cost ="82"></time_cost>
+    <time_cost time ="960" cost ="83"></time_cost>
+    <time_cost time ="1110" cost ="87"></time_cost>
+    <time_cost time ="1200" cost ="82"></time_cost>
+    <time_cost time ="1380" cost ="75"></time_cost>
+  </edge>
+  <edge a ="15" b ="7">
+    <time_cost time ="0" cost ="39"></time_cost>
+    <time_cost time ="330" cost ="55"></time_cost>
+    <time_cost time ="420" cost ="80"></time_cost>
+    <time_cost time ="570" cost ="72"></time_cost>
+    <time_cost time ="660" cost ="62"></time_cost>
+    <time_cost time ="960" cost ="65"></time_cost>
+    <time_cost time ="1110" cost ="70"></time_cost>
+    <time_cost time ="1200" cost ="60"></time_cost>
+    <time_cost time ="1380" cost ="55"></time_cost>
+  </edge>
+  <edge a ="74" b ="73">
+    <time_cost time ="0" cost ="27"></time_cost>
+    <time_cost time ="330" cost ="30"></time_cost>
+    <time_cost time ="420" cost ="35"></time_cost>
+    <time_cost time ="570" cost ="34"></time_cost>
+    <time_cost time ="660" cost ="32"></time_cost>
+    <time_cost time ="960" cost ="32"></time_cost>
+    <time_cost time ="1110" cost ="35"></time_cost>
+    <time_cost time ="1200" cost ="32"></time_cost>
+    <time_cost time ="1380" cost ="30"></time_cost>
+  </edge>
+  <edge a ="73" b ="72">
+    <time_cost time ="0" cost ="28"></time_cost>
+    <time_cost time ="330" cost ="31"></time_cost>
+    <time_cost time ="420" cost ="35"></time_cost>
+    <time_cost time ="570" cost ="34"></time_cost>
+    <time_cost time ="660" cost ="31"></time_cost>
+    <time_cost time ="960" cost ="32"></time_cost>
+    <time_cost time ="1110" cost ="35"></time_cost>
+    <time_cost time ="1200" cost ="32"></time_cost>
+    <time_cost time ="1380" cost ="31"></time_cost>
+  </edge>
+  <edge a ="19" b ="11">
+    <time_cost time ="0" cost ="45"></time_cost>
+    <time_cost time ="330" cost ="50"></time_cost>
+    <time_cost time ="420" cost ="52"></time_cost>
+    <time_cost time ="570" cost ="52"></time_cost>
+    <time_cost time ="660" cost ="50"></time_cost>
+    <time_cost time ="960" cost ="52"></time_cost>
+    <time_cost time ="1110" cost ="55"></time_cost>
+    <time_cost time ="1200" cost ="51"></time_cost>
+    <time_cost time ="1380" cost ="50"></time_cost>
+  </edge>
+  <edge a ="19" b ="74">
+    <time_cost time ="0" cost ="38"></time_cost>
+    <time_cost time ="330" cost ="45"></time_cost>
+    <time_cost time ="420" cost ="52"></time_cost>
+    <time_cost time ="570" cost ="50"></time_cost>
+    <time_cost time ="660" cost ="47"></time_cost>
+    <time_cost time ="960" cost ="49"></time_cost>
+    <time_cost time ="1110" cost ="72"></time_cost>
+    <time_cost time ="1200" cost ="65"></time_cost>
+    <time_cost time ="1380" cost ="45"></time_cost>
+  </edge>
+  <edge a ="21" b ="19">
+    <time_cost time ="0" cost ="43"></time_cost>
+    <time_cost time ="330" cost ="50"></time_cost>
+    <time_cost time ="420" cost ="62"></time_cost>
+    <time_cost time ="570" cost ="60"></time_cost>
+    <time_cost time ="660" cost ="55"></time_cost>
+    <time_cost time ="960" cost ="58"></time_cost>
+    <time_cost time ="1110" cost ="61"></time_cost>
+    <time_cost time ="1200" cost ="55"></time_cost>
+    <time_cost time ="1380" cost ="50"></time_cost>
+  </edge>
+  <edge a ="72" b ="69">
+    <time_cost time ="0" cost ="40"></time_cost>
+    <time_cost time ="330" cost ="47"></time_cost>
+    <time_cost time ="420" cost ="55"></time_cost>
+    <time_cost time ="570" cost ="52"></time_cost>
+    <time_cost time ="660" cost ="50"></time_cost>
+    <time_cost time ="960" cost ="51"></time_cost>
+    <time_cost time ="1110" cost ="55"></time_cost>
+    <time_cost time ="1200" cost ="50"></time_cost>
+    <time_cost time ="1380" cost ="47"></time_cost>
+  </edge>
+  <edge a ="69" b ="61">
+    <time_cost time ="0" cost ="38"></time_cost>
+    <time_cost time ="330" cost ="48"></time_cost>
+    <time_cost time ="420" cost ="56"></time_cost>
+    <time_cost time ="570" cost ="53"></time_cost>
+    <time_cost time ="660" cost ="51"></time_cost>
+    <time_cost time ="960" cost ="52"></time_cost>
+    <time_cost time ="1110" cost ="55"></time_cost>
+    <time_cost time ="1200" cost ="51"></time_cost>
+    <time_cost time ="1380" cost ="48"></time_cost>
+  </edge>
+  <edge a ="61" b ="58">
+    <time_cost time ="0" cost ="45"></time_cost>
+    <time_cost time ="330" cost ="60"></time_cost>
+    <time_cost time ="420" cost ="40"></time_cost>
+    <time_cost time ="570" cost ="65"></time_cost>
+    <time_cost time ="660" cost ="62"></time_cost>
+    <time_cost time ="960" cost ="64"></time_cost>
+    <time_cost time ="1110" cost ="45"></time_cost>
+    <time_cost time ="1200" cost ="70"></time_cost>
+    <time_cost time ="1380" cost ="60"></time_cost>
+  </edge>
+  <edge a ="58" b ="56">
+    <time_cost time ="0" cost ="37"></time_cost>
+    <time_cost time ="330" cost ="45"></time_cost>
+    <time_cost time ="420" cost ="90"></time_cost>
+    <time_cost time ="570" cost ="85"></time_cost>
+    <time_cost time ="660" cost ="51"></time_cost>
+    <time_cost time ="960" cost ="50"></time_cost>
+    <time_cost time ="1110" cost ="55"></time_cost>
+    <time_cost time ="1200" cost ="52"></time_cost>
+    <time_cost time ="1380" cost ="45"></time_cost>
+  </edge>
+  <edge a ="56" b ="57">
+    <time_cost time ="0" cost ="28"></time_cost>
+    <time_cost time ="330" cost ="35"></time_cost>
+    <time_cost time ="420" cost ="80"></time_cost>
+    <time_cost time ="570" cost ="65"></time_cost>
+    <time_cost time ="660" cost ="45"></time_cost>
+    <time_cost time ="960" cost ="40"></time_cost>
+    <time_cost time ="1110" cost ="50"></time_cost>
+    <time_cost time ="1200" cost ="37"></time_cost>
+    <time_cost time ="1380" cost ="35"></time_cost>
+  </edge>
+  <edge a ="43" b ="14">
+    <time_cost time ="0" cost ="35"></time_cost>
+    <time_cost time ="330" cost ="42"></time_cost>
+    <time_cost time ="420" cost ="53"></time_cost>
+    <time_cost time ="570" cost ="52"></time_cost>
+    <time_cost time ="660" cost ="47"></time_cost>
+    <time_cost time ="960" cost ="48"></time_cost>
+    <time_cost time ="1110" cost ="54"></time_cost>
+    <time_cost time ="1200" cost ="48"></time_cost>
+    <time_cost time ="1380" cost ="42"></time_cost>
+  </edge>
+  <edge a ="41" b ="43">
+    <time_cost time ="0" cost ="30"></time_cost>
+    <time_cost time ="330" cost ="40"></time_cost>
+    <time_cost time ="420" cost ="45"></time_cost>
+    <time_cost time ="570" cost ="43"></time_cost>
+    <time_cost time ="660" cost ="42"></time_cost>
+    <time_cost time ="960" cost ="43"></time_cost>
+    <time_cost time ="1110" cost ="46"></time_cost>
+    <time_cost time ="1200" cost ="42"></time_cost>
+    <time_cost time ="1380" cost ="40"></time_cost>
+  </edge>
+  <edge a ="38" b ="41">
+    <time_cost time ="0" cost ="35"></time_cost>
+    <time_cost time ="330" cost ="45"></time_cost>
+    <time_cost time ="420" cost ="55"></time_cost>
+    <time_cost time ="570" cost ="52"></time_cost>
+    <time_cost time ="660" cost ="52"></time_cost>
+    <time_cost time ="960" cost ="53"></time_cost>
+    <time_cost time ="1110" cost ="55"></time_cost>
+    <time_cost time ="1200" cost ="52"></time_cost>
+    <time_cost time ="1380" cost ="45"></time_cost>
+  </edge>
+  <edge a ="35" b ="38">
+    <time_cost time ="0" cost ="40"></time_cost>
+    <time_cost time ="330" cost ="45"></time_cost>
+    <time_cost time ="420" cost ="57"></time_cost>
+    <time_cost time ="570" cost ="52"></time_cost>
+    <time_cost time ="660" cost ="52"></time_cost>
+    <time_cost time ="960" cost ="53"></time_cost>
+    <time_cost time ="1110" cost ="56"></time_cost>
+    <time_cost time ="1200" cost ="52"></time_cost>
+    <time_cost time ="1380" cost ="45"></time_cost>
+  </edge>
+  <edge a ="34" b ="35">
+    <time_cost time ="0" cost ="35"></time_cost>
+    <time_cost time ="330" cost ="50"></time_cost>
+    <time_cost time ="420" cost ="56"></time_cost>
+    <time_cost time ="570" cost ="55"></time_cost>
+    <time_cost time ="660" cost ="52"></time_cost>
+    <time_cost time ="960" cost ="54"></time_cost>
+    <time_cost time ="1110" cost ="95"></time_cost>
+    <time_cost time ="1200" cost ="78"></time_cost>
+    <time_cost time ="1380" cost ="50"></time_cost>
+  </edge>
+</edges>

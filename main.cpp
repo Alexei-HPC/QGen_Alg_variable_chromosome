@@ -5,7 +5,7 @@
 #include <string>
 #include <time.h>
 #include <set>
-//#include <mpi.h>
+#include <mpi.h>
 #include <sstream>
 
 #include "Population.h"
@@ -1106,6 +1106,7 @@ int main(int argc, char *argv[])
 
     MPI_Finalize();
 
+//    return EXIT_SUCCESS;
 
     return a.exec();
 }
