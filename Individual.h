@@ -4,9 +4,10 @@
 #include <fstream>
 #include <string>
 #include <algorithm>
-#include <conio.h>
-#include <Windows.h>
+#include <iostream>
+//#include <Windows.h>
 #include <iomanip>
+#include <math.h>
 
 using namespace std;
 

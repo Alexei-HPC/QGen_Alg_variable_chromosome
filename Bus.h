@@ -2,6 +2,7 @@
 
 #include <vector>
 #include <iostream>
+#include <limits.h>
 #include "EdgeCost.h"
 #include "MinimalDriveTime.h"
 #include "Routes.h"

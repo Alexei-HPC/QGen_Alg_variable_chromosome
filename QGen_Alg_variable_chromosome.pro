@@ -15,7 +15,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 win32:INCLUDEPATH += "C:/Program Files (x86)/MPICH2/include/"
-unix:INCLUDEPATH += "/usr/include/mpich2/"
+unix:INCLUDEPATH += "/usr/include/mpi/"
 
 SOURCES += \
     main.cpp \
@@ -69,7 +69,7 @@ QMAKE_CXXFLAGS += -Bsymbolic-functions
 
 win32:CONFIG(release, debug|release): LIBS += -L'C:/Program Files (x86)/MPICH2/lib/' -lmpich2
 else:win32:CONFIG(debug, debug|release): LIBS += -L'C:/Program Files (x86)/MPICH2/lib/' -lmpich2d
-else:unix: LIBS += -L'C:/Program Files (x86)/MPICH2/lib/' -lmpich2
+#else:unix: LIBS += -L'/usr/lib/mpi/' -lmpich2
 
-INCLUDEPATH += 'C:/Program Files (x86)/MPICH2/include'
-DEPENDPATH += 'C:/Program Files (x86)/MPICH2/include'
+win32:INCLUDEPATH += 'C:/Program Files (x86)/MPICH2/include'
+win32:DEPENDPATH += 'C:/Program Files (x86)/MPICH2/include'

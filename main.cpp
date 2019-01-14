@@ -1,6 +1,7 @@
 #include <QCoreApplication>
 
-#include <conio.h>
+#include <iostream>
+#include <stdlib.h>
 #include <string>
 #include <time.h>
 #include <set>
@@ -847,7 +848,7 @@ int MaxIntervalViolation(Events events, int fine_val)	//Возвращает ш�
                     if(events.events_vector[j].time - events.events_vector[i].time > events.events_vector[i].rout_max_interval)
                     {
                         tmp_minutes = events.events_vector[j].time - events.events_vector[i].time - events.events_vector[i].rout_max_interval;
-                        exceed_minutes += tmp_minutes * fine_val * fine_val * tmp_minutes;	//Размер штрафа возрастает квадратично
+                        exceed_minutes += tmp_minutes * fine_val * fine_val * tmp_minutes;	//� азмер штрафа возрастает квадратично
                     }
                 }
             }
@@ -987,9 +988,14 @@ int main(int argc, char *argv[])
     string label = "";
     string filename1 = "_average_ff.txt";
     //string filename2 = "_file_ff_by_ind.txt";
+//  used deprecated cast
+/*
     char temp[30];
     itoa(proc_rank, temp, 10);
     label += (char*) temp;
+*/
+//  instead:
+    label = to_string(proc_rank);
     ofstream file_aver_ff(parameters.uni_path + label + filename1);
     //ofstream file_ff_by_ind(label + filename2);
 
