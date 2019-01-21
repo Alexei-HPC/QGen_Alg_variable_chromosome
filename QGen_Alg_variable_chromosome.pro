@@ -67,9 +67,9 @@ win32:LIBS += -L/"C:/Program Files (x86)/MPICH2/lib" -lmpich2 -lopa -lpthread -l
 win32:CONFIG(release, debug|release): LIBS += -L'C:/Program Files (x86)/MPICH2/lib/' -lmpich2
 else:win32:CONFIG(debug, debug|release): LIBS += -L'C:/Program Files (x86)/MPICH2/lib/' -lmpich2d
 
-unix: LIBS += -L/usr/lib/openmpi/lib -lmpi -lmpi++
+unix: LIBS += -L/usr/lib -lmpi
+
 
 win32:INCLUDEPATH += 'C:/Program Files (x86)/MPICH2/include'
 win32:DEPENDPATH += 'C:/Program Files (x86)/MPICH2/include'
-unix:DEPENDPATH += /usr/lib/openmpi/lib
-unix:INCLUDEPATH += /usr/lib/openmpi/include
+unix:INCLUDEPATH += /usr/include/mpi
